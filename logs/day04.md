@@ -9,7 +9,7 @@
 
 ---
 
-## 🔥 막혔던 문제 & 해결 (오늘의 핵심)
+##  막혔던 문제 & 해결 (오늘의 핵심)
 
 ### 문제 상황
 `sudo apt update`를 했더니 인터넷 서버가 아니라 `file:/cdrom`만 쳐다보고 에러가 났다.
@@ -52,7 +52,7 @@ The repository 'file:/cdrom noble Release' no longer has a Release file.
 
 ---
 
-## 💡 배운 것 / 헷갈렸던 것
+## 배운 것 / 헷갈렸던 것
 
 - **netplan은 YAML이라 들여쓰기(스페이스)에 엄격하다.** Tab 쓰면 안 되고, 칸 수가 한 칸만 틀려도 에러. (network=0칸 → version/renderer/ethernets=2칸 → ens33=4칸 → dhcp4/nameservers=6칸 → addresses=8칸)
 - **`ping IP`는 되는데 도메인이 안 되면 = DNS 문제다.** (전화선은 됐는데 전화번호부가 없는 상태)
